@@ -1,0 +1,50 @@
+@import 'search.css';
+@import 'bookDetail.css';
+@import 'lists.css';
+@import 'login.css';
+@import 'currentlyReading.css';
+
+.leaflet-container {
+    height: 750px;
+    width: 1000px;
+}
+
+#globalContainer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+#root {
+    flex: 1;
+}
+
+#footer {
+    margin-top: 5em;
+}
+
+#footer > div {
+    border-radius: 0;
+}
+
+.successDimmer {
+    background-color: limegreen;
+}
+@keyframes transit {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#registerSuccess {
+    background-color: lightgreen;
+    animation: transit 1s;
+}
+
+.table tr.visible.transition {
+    display: table-row !important;
+}

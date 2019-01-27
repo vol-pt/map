@@ -1,0 +1,7 @@
+[
+  {
+    "limit": "350 KB",
+    "webpack": false,
+    "path": "build/**/*.(js|css|html|htm)"
+  }
+]

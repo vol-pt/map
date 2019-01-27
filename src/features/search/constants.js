@@ -1,0 +1,3 @@
+export const SEARCH_REQUEST = 'SEARCH/REQUEST';
+export const SEARCH_SUCCESS = 'SEARCH/SUCCESS';
+export const SET_CURRENT_POLY = 'SEARCH/SET_POLY';

@@ -1,0 +1,18 @@
+#browse_books_button {
+    margin-left: 3em;
+}
+
+@media only screen and (max-width: 767px) {
+    .stackable_buttons {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .stackable_buttons > .button {
+        width: 100%;
+    }
+}
